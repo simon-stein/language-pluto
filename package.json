@@ -2,14 +2,14 @@
     "name": "pluto",
     "version": "0.0.1",
     "description": "Grammar package for Pluto",
-    "repository": "https://github.com/simon-stein/package-pluto",
+    "repository": "https://github.com/simon-stein/language-pluto",
     "keywords": [
       "syntax",
       "highlighting",
       "grammar"
     ],
     "license": "MIT",
-    "bugs": "https://github.com/simon-stein/package-pluto/issues",
+    "bugs": "https://github.com/simon-stein/language-pluto/issues",
     "engines": {
       "atom": ">=1.0.0 <2.0.0"
     }
