@@ -1,0 +1,28 @@
+scopeName: 'source.pluto'
+name: 'Pluto'
+fileTypes: [ 'pluto' ]
+limitLineLength: false
+
+patterns: [
+  {
+    comment: 'This rule is responsible for comments'
+    name: 'comment.line.pluto'
+    match: '#.*$'
+  }
+
+  {
+    comment: 'This rule is to highlight conditions'
+    name : 'keyword.control.untitled'
+    match : 'if|while|for|switch|return'
+
+  }
+
+  {
+    comment : 'This rule highlights text between ""-signs as Strings'
+    name : 'string.quoted.double.untitled'
+    begin : '"'
+    end : '"'
+  }
+
+
+]
